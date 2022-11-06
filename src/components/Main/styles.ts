@@ -15,7 +15,7 @@ export const Container = styled.div`
   /* mobile */
 
   @media (max-width: 768px) {
-    margin-top: 11vh;
+    margin-top: 17vh;
   }
 `;
 
@@ -41,7 +41,7 @@ export const TextMain = styled.h1`
 
   @media (max-width: 768px) {
     font-weight: 600;
-    font-size: 48px;
+    font-size: 45px;
     line-height: 45px;
   }
 `;
@@ -55,6 +55,7 @@ export const SubText = styled.p`
   /* mobile */
 
   @media (max-width: 768px) {
+    font-size: 18px;
     margin-top: 20px;
   }
 `
@@ -71,6 +72,10 @@ export const Contact = styled.button`
 
   &:hover {
     border: 1px solid white;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 16px;
   }
 `
 

@@ -22,8 +22,11 @@ export const Container = styled.div`
 `;
 
 export const HamburguerMenu = styled(GiHamburgerMenu)`
-  width: 40px;
-  height: 40px;
+  position: absolute;
+  right: 0;
+  margin-right: 5px;
+  width: 35px;
+  height: 35px;
   fill: #a1a1a1;
 
   @media (min-width: 768px) {
@@ -34,7 +37,6 @@ export const HamburguerMenu = styled(GiHamburgerMenu)`
 export const Logo = styled.div`
   display: flex;
   align-items: center;
-  
   
   ul {
     display: flex;
@@ -61,16 +63,6 @@ export const Logo = styled.div`
   img {
     width: 40px;
     height: 40px;
-  }
-
-  /* mobile */
-
-  @media (max-width: 768px) {
-
-
-    img {
-      display: none;
-    }
   }
 `;
 
