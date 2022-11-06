@@ -24,7 +24,7 @@ export const Container = styled.div`
 export const HamburguerMenu = styled(GiHamburgerMenu)`
   position: absolute;
   right: 0;
-  margin-right: 5px;
+  margin-right: 15px;
   width: 35px;
   height: 35px;
   fill: #a1a1a1;
@@ -63,6 +63,10 @@ export const Logo = styled.div`
   img {
     width: 40px;
     height: 40px;
+  }
+
+  @media (max-width:768px) {
+    margin-left: 10px;
   }
 `;
 
