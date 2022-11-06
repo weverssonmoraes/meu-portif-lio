@@ -41,7 +41,7 @@ export const TextMain = styled.h1`
 
   @media (max-width: 768px) {
     font-weight: 600;
-    font-size: 40px;
+    font-size: 48px;
     line-height: 45px;
   }
 `;
@@ -80,7 +80,7 @@ export const SkillsSection = styled.div`
   align-items: center;
   justify-content: center;
   margin-top: 30vh;
-  margin-bottom: 10vh;
+  margin-bottom: 20vh;
 
   @media (max-width: 768px) {
     margin-top: 10vh;
@@ -88,7 +88,7 @@ export const SkillsSection = styled.div`
 `
 
 export const TitleSkills = styled.p`
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   color: #a1a1a1;
   margin-bottom: 30px;
@@ -142,8 +142,8 @@ const iconCSS = css`
   /* mobile */
 
   @media (max-width: 768px) {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     margin: 0 10px;
   }
 `

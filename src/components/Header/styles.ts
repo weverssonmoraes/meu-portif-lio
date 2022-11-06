@@ -22,8 +22,8 @@ export const Container = styled.div`
 `;
 
 export const HamburguerMenu = styled(GiHamburgerMenu)`
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   fill: #a1a1a1;
 
   @media (min-width: 768px) {
