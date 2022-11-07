@@ -9,13 +9,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "framer-motion": "^7.6.4",
+    "aos": "^2.3.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.6.0",
+    "react-scroll-motion": "^0.3.0",
     "styled-components": "^5.3.6"
   },
   "devDependencies": {
+    "@types/aos": "^3.0.4",
     "@types/react": "^18.0.22",
     "@types/react-dom": "^18.0.7",
     "@types/styled-components": "^5.1.26",

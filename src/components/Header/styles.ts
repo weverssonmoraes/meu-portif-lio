@@ -16,8 +16,7 @@ export const Container = styled.div`
 
 
   @media (max-width: 768px) {
-    margin-left: 10px;
-    margin-right: 10px;
+    height: 10vh;
   }
 `;
 
@@ -27,7 +26,10 @@ export const HamburguerMenu = styled(GiHamburgerMenu)`
   margin-right: 15px;
   width: 35px;
   height: 35px;
-  fill: #a1a1a1;
+  fill: black;
+  background: white;
+  padding: 3px;
+  border-radius: 5px;
 
   @media (min-width: 768px) {
     display: none;

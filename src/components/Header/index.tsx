@@ -9,11 +9,6 @@ const Header = () => {
           <img src={Logo} alt="" />
           {/* mobile */}
           <C.HamburguerMenu />
-          <ul>
-            <li>Projects</li>
-            <li>About</li>
-            <li>Contacts</li>
-          </ul>
         </C.Logo>
         
         <C.ListIcon>

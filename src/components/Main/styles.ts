@@ -23,14 +23,25 @@ export const SectionMain = styled.section`
   display: flex;
   align-items: center;
   flex-direction: column;
+  
+  @media (max-width:768px) {
+    align-items: baseline;
+    margin-left: 20px;
+  }
 `
 
 export const TextMain = styled.h1`
-  font-size: 96px;
+  font-size: 95px;
   line-height: 95px;
   font-weight: 400;
   text-align: center;
   cursor: default;
+  width: 800px;
+  &:nth-child(2) {
+    position: absolute;
+    filter: blur(150px);
+  }
+  
   
   span {
     font-weight: 500;
@@ -40,9 +51,26 @@ export const TextMain = styled.h1`
   }
 
   @media (max-width: 768px) {
+    text-align: start;
     font-weight: 600;
-    font-size: 45px;
+    font-size: 65px;
+    line-height: 70px;
+    width: 450px;
+  }
+
+  @media (max-width: 600px) {
+    text-align: start;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 50px;
+    width: 340px;
+  }
+  @media (max-width: 390px) {
+    text-align: start;
+    font-weight: 600;
+    font-size: 40px;
     line-height: 45px;
+    width: 280px;
   }
 `;
 
@@ -68,7 +96,6 @@ export const Contact = styled.button`
   margin-top: 40px;
   cursor: pointer;
   font-weight: 600;
-  border-radius: 20px;
 
   &:hover {
     border: 1px solid white;
@@ -76,6 +103,10 @@ export const Contact = styled.button`
 
   @media (max-width: 768px) {
     font-size: 16px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 14px;
   }
 `
 
@@ -85,11 +116,7 @@ export const SkillsSection = styled.div`
   align-items: center;
   justify-content: center;
   margin-top: 30vh;
-  margin-bottom: 20vh;
-
-  @media (max-width: 768px) {
-    margin-top: 10vh;
-  }
+  margin-bottom: 30vh;
 `
 
 export const TitleSkills = styled.p`
@@ -109,7 +136,7 @@ export const Icons = styled.div`
 const iconCSS = css`
   width: 80px;
   height: 80px;
-  margin: 0 50px;
+  margin: 0 30px;
   cursor: pointer;
   transition: all ease .2s;
   fill: #a1a1a1;
@@ -120,12 +147,12 @@ const iconCSS = css`
 
   &:nth-child(1) {
     &:hover {
-      fill: #D84924
+      fill: #F16529
     }
   }
   &:nth-child(2) {
     &:hover {
-      fill: #2449D8
+      fill: #2BA8E4
     }
   }
   &:nth-child(3) {
