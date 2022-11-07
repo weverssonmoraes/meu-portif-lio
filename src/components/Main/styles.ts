@@ -80,7 +80,7 @@ export const Container = styled.div`
   /* mobile */
 
   @media (max-width: 768px) {
-    margin-top: 20vh;
+    margin-top: 25vh;
   }
 `;
 
@@ -91,10 +91,7 @@ export const SectionMain = styled.section`
   margin-bottom: 40vh;
   
   @media (max-width:768px) {
-    align-items: baseline;
-    margin-left: 20px;
     margin-bottom: 25vh;
-
   }
 `
 
@@ -120,26 +117,26 @@ export const TextMain = styled.h1`
   }
 
   @media (max-width: 768px) {
-    text-align: start;
+    text-align: center;
     font-weight: 600;
     font-size: 65px;
     line-height: 70px;
-    width: 450px;
+    width: 550px;
   }
 
   @media (max-width: 600px) {
-    text-align: start;
+    text-align: center;
     font-weight: 600;
     font-size: 48px;
     line-height: 50px;
-    width: 340px;
+    width: 440px;
   }
   @media (max-width: 390px) {
-    text-align: start;
+    text-align: center;
     font-weight: 600;
     font-size: 40px;
     line-height: 45px;
-    width: 280px;
+    width: 380px;
   }
 `;
 
