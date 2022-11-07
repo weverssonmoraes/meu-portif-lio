@@ -17,21 +17,11 @@ const Main = () => {
         <C.Contact>CONTACT ME</C.Contact>
       </C.SectionMain>
 
+      <C.SectionPortifolio data-aos='fade-up'>
+        <C.Portifolio>
+        <C.TextPortifolio>My Portifolio</C.TextPortifolio>
 
-      <C.SkillsSection>
-        <C.TitleSkills data-aos='fade-left'>My Skills</C.TitleSkills>
-        <C.Icons data-aos='fade-right'>
-          <C.HtmlIcon />
-          <C.CssIcon />
-          <C.JavaScriptIcon />
-          <C.ReactIcon />
-          <C.GitHubIcon />
-        </C.Icons>
-      </C.SkillsSection>
-
-
-      <C.SectionPortifolio>
-        olá mundo
+        </C.Portifolio>
       </C.SectionPortifolio>
     </C.Container>
   );
