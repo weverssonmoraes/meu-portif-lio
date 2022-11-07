@@ -104,10 +104,6 @@ export const Contact = styled.button`
   @media (max-width: 768px) {
     font-size: 16px;
   }
-
-  @media (max-width: 768px) {
-    font-size: 14px;
-  }
 `
 
 export const SkillsSection = styled.div`
