@@ -147,6 +147,7 @@ export const SubText = styled.p`
   font-size: 20px;
   margin-top: 40px;
   font-weight: 600;
+  z-index: 1000;
   color: #a1a1a1;
 
   /* mobile */
@@ -163,6 +164,7 @@ export const Contact = styled.button`
   padding: 10px 25px;
   border: 1px solid #f35815;
   margin-top: 40px;
+  z-index: 1000;
   cursor: pointer;
   font-weight: 600;
 
