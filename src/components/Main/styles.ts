@@ -15,7 +15,7 @@ export const Container = styled.div`
   /* mobile */
 
   @media (max-width: 768px) {
-    margin-top: 17vh;
+    margin-top: 20vh;
   }
 `;
 
