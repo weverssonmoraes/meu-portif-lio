@@ -14,8 +14,10 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    overflow-x: hidden;
-
     background-color: #1D1D1D;
+
+    @media (max-width: 768px) {
+      overflow-x: hidden;
+    }
   }
 `

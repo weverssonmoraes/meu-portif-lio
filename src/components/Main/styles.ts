@@ -15,11 +15,11 @@ export const Elements = styled.div`
     }
     &:nth-child(2) {
       top: 50%;
-      left: 90%;
+      left: 70%;
       animation: animate 7s linear infinite;
     }
     &:nth-child(3) {
-      top: 17%;
+      top: 25%;
       left: 10%;
       animation: animate 9s linear infinite;
     }
@@ -45,7 +45,7 @@ export const Elements = styled.div`
     }
     &:nth-child(8) {
       top: 60%;
-      left: 80%;
+      left: 70%;
       animation: animate 15s linear infinite;
     }
     &:nth-child(9) {
@@ -136,7 +136,7 @@ export const TextMain = styled.h1`
     font-weight: 600;
     font-size: 40px;
     line-height: 45px;
-    width: 380px;
+    width: 350px;
   }
 `;
 
@@ -178,7 +178,6 @@ export const SectionPortifolio = styled.div`
   padding-top: 20vh;
   padding-bottom: 20vh;
   background: #f3f3f3;
-  margin: 0 auto;
   border-radius: 40px;
   display: flex;
   align-items: center;
