@@ -7,6 +7,8 @@ export const Elements = styled.div`
     height: 60px;
     background: transparent;
     border: 6px solid black;
+    overflow-x: hidden;
+    overflow-y: hidden;
 
     &:nth-child(1) {
       top: 12%;
@@ -15,11 +17,11 @@ export const Elements = styled.div`
     }
     &:nth-child(2) {
       top: 50%;
-      left: 70%;
+      left: 90%;
       animation: animate 7s linear infinite;
     }
     &:nth-child(3) {
-      top: 25%;
+      top: 17%;
       left: 10%;
       animation: animate 9s linear infinite;
     }
@@ -45,7 +47,7 @@ export const Elements = styled.div`
     }
     &:nth-child(8) {
       top: 60%;
-      left: 70%;
+      left: 80%;
       animation: animate 15s linear infinite;
     }
     &:nth-child(9) {
@@ -102,7 +104,7 @@ export const TextMain = styled.h1`
   text-align: center;
   cursor: default;
   width: 800px;
-  z-index: 1000;
+  z-index: 1;
   &:nth-child(2) {
     position: absolute;
     filter: blur(150px);
@@ -136,7 +138,7 @@ export const TextMain = styled.h1`
     font-weight: 600;
     font-size: 40px;
     line-height: 45px;
-    width: 350px;
+    width: 380px;
   }
 `;
 
@@ -182,6 +184,7 @@ export const SectionPortifolio = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow-x: hidden;
 `
 
 export const Portifolio = styled.div`
