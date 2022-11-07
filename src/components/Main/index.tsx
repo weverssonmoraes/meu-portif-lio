@@ -10,6 +10,18 @@ const Main = () => {
 
   return (
     <C.Container >
+      <C.Elements>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </C.Elements>
       <C.SectionMain>
         <C.TextMain>Hi, I'm Weversson, <span>web developer</span></C.TextMain>
         <C.TextMain>Hi, I'm Weversson, <span>web developer</span></C.TextMain>
