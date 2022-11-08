@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled, { css, keyframes } from "styled-components";
 
 import {
   DiHtml5,
@@ -11,62 +11,50 @@ import {
 export const SkillsSection = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   margin-top: 30vh;
   margin-bottom: 30vh;
+  overflow: hidden;
+  white-space: nowrap;
 `
 
 export const TitleSkills = styled.p`
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 600;
-  color: #a1a1a1;
-  margin-bottom: 30px;
+  color: white;
+  margin-bottom: 60px;
+  text-align: center;
 `
 
 export const Icons = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
+  animation: animate1 80s linear infinite;
+
+  &:nth-child(2) {
+    animation: animate1 80s reverse infinite;
+    animation-delay: -60s;
+  }
+
+  @keyframes animate1 {
+    0% {
+      transform: translateX(-100%)
+    }
+    100% {
+      transform: translateX(0%)
+    }
+  }
 `
 
+
 const iconCSS = css`
-  width: 80px;
-  height: 80px;
-  margin: 0 30px;
-  cursor: pointer;
-  transition: all ease .2s;
+  width: 70px;
+  height: 70px;
+  margin: 0 15px;
+  cursor: default;
+  transition: 1s;
   fill: #a1a1a1;
 
   &:hover {
-    transform: translate(0px, -8%);
-  }
-
-  &:nth-child(1) {
-    &:hover {
-      fill: #F16529
-    }
-  }
-  &:nth-child(2) {
-    &:hover {
-      fill: #2BA8E4
-    }
-  }
-  &:nth-child(3) {
-    &:hover {
-      fill: #EAD41C
-    }
-  }
-  &:nth-child(4) {
-    &:hover {
-      fill: #5CCFEE
-    }
-  }
-  &:nth-child(5) {
-    &:hover {
-      fill: white
-    }
+    transition: 0s;
   }
 
   /* mobile */
@@ -80,16 +68,37 @@ const iconCSS = css`
 
 export const HtmlIcon = styled(DiHtml5)`
   ${iconCSS}
+
+  &:hover {
+      fill: #F16529
+    }
 `
 export const CssIcon = styled(DiCss3Full)`
   ${iconCSS}
+
+  &:hover {
+      fill: #2BA8E4
+    }
 `
 export const JavaScriptIcon = styled(DiJavascript1)`
   ${iconCSS}
+
+  &:hover {
+      fill: #EAD41C
+    }
 `
 export const ReactIcon = styled(DiReact)`
   ${iconCSS}
+
+  &:hover {
+      fill: #5CCFEE
+    }
+  
 `
 export const GitHubIcon = styled(DiGithubFull)`
   ${iconCSS}
+
+  &:hover {
+      fill: white
+    }
 `

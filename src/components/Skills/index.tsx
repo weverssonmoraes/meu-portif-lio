@@ -10,6 +10,63 @@ export const Skills = () => {
           <C.JavaScriptIcon />
           <C.ReactIcon />
           <C.GitHubIcon />
+          <C.HtmlIcon />
+          <C.CssIcon />
+          <C.JavaScriptIcon />
+          <C.ReactIcon />
+          <C.GitHubIcon />
+          <C.HtmlIcon />
+          <C.CssIcon />
+          <C.JavaScriptIcon />
+          <C.ReactIcon />
+          <C.GitHubIcon />
+          <C.HtmlIcon />
+          <C.CssIcon />
+          <C.JavaScriptIcon />
+          <C.ReactIcon />
+          <C.GitHubIcon />
+          <C.HtmlIcon />
+          <C.CssIcon />
+          <C.JavaScriptIcon />
+          <C.ReactIcon />
+          <C.GitHubIcon />
+          <C.HtmlIcon />
+          <C.CssIcon />
+          <C.JavaScriptIcon />
+          <C.ReactIcon />
+          <C.GitHubIcon />
+        </C.Icons>
+        <C.Icons data-aos='fade-left'>
+          <C.HtmlIcon />
+          <C.CssIcon />
+          <C.JavaScriptIcon />
+          <C.ReactIcon />
+          <C.GitHubIcon />
+          <C.HtmlIcon />
+          <C.CssIcon />
+          <C.JavaScriptIcon />
+          <C.ReactIcon />
+          <C.GitHubIcon />
+          <C.HtmlIcon />
+          <C.CssIcon />
+          <C.JavaScriptIcon />
+          <C.ReactIcon />
+          <C.GitHubIcon />
+          <C.HtmlIcon />
+          <C.CssIcon />
+          <C.JavaScriptIcon />
+          <C.ReactIcon />
+          <C.GitHubIcon />
+          <C.HtmlIcon />
+          <C.CssIcon />
+          <C.JavaScriptIcon />
+          <C.ReactIcon />
+          <C.GitHubIcon />
+          <C.HtmlIcon />
+          <C.CssIcon />
+          <C.JavaScriptIcon />
+          <C.ReactIcon />
+          <C.GitHubIcon />
         </C.Icons>
     </C.SkillsSection>
   )

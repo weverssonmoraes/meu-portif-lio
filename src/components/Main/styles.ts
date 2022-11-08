@@ -6,7 +6,7 @@ export const Elements = styled.div`
     width: 60px;
     height: 60px;
     background: transparent;
-    border: 6px solid black;
+    border: 6px solid white;
     overflow-x: hidden;
     overflow-y: hidden;
 
@@ -177,21 +177,35 @@ export const Contact = styled.button`
 `
 
 export const SectionPortifolio = styled.div`
-  padding-top: 20vh;
-  padding-bottom: 20vh;
-  background: #f3f3f3;
-  border-radius: 40px;
+  padding-top: 10vh;
+  padding-bottom: 40vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow-x: hidden;
 `
 
 export const Portifolio = styled.div`
-
+  max-width: 1100px;
+  margin: 0 auto;
 `
 
 export const TextPortifolio = styled.h1`
   font-size: 50px;
-  color: #1D1D1D;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 400;
+
+  @media (max-width:768px) {
+    font-size: 38px;
+  }
+`
+
+export const Paragraph = styled.p`
+  text-align: center;
+  color: #a1a1a1;
+  font-size: 20px;
+
+  @media (max-width: 390px) {
+    font-size: 16px;
+    width: 350px;
+  }
 `
